@@ -1,0 +1,16 @@
+# 原始与中间数据不入库（体积大、可重新下载/生成）
+data/raw/*
+data/interim/*
+data/clean/*
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+~$*
+
+# 调试与临时输出（正式结论见 data/analysis 与 report）
+data/*.txt
+data/*.csv
